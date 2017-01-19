@@ -1,0 +1,7 @@
+{
+  "name": "allcarpets",
+  "version": "1.0.0",
+  "devDependencies": {
+    "gulp-sass": "^3.1.0"
+  }
+}
