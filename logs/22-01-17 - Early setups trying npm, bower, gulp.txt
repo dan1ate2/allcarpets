@@ -1,0 +1,205 @@
+
+C:\Users\Ðan
+? cd c:/xampp/htdocs/allcarpets
+
+c:\xampp\htdocs\allcarpets (master) (allcarpets@1.0.0)
+? gulp sass:watch
+[16:37:11] Using gulpfile c:\xampp\htdocs\allcarpets\gulpfile.js
+[16:37:11] Starting 'sass:watch'...
+[16:37:11] Finished 'sass:watch' after 52 ms
+[16:37:42] Starting 'sass'...
+Error in plugin 'sass'
+Message:
+    wp-content\themes\allcarpets\sass\typography\_headings.scss
+Error: property "hi" must be followed by a ':'
+        on line 4 of wp-content/themes/allcarpets/sass/typography/_headings.scss
+>> .hellodan {hi dan}
+   -----------^
+
+[16:37:42] Finished 'sass' after 90 ms
+[16:37:49] Starting 'sass'...
+[16:37:49] Finished 'sass' after 67 ms
+[16:38:38] Starting 'sass'...
+[16:38:39] Finished 'sass' after 84 ms
+[16:38:50] Starting 'sass'...
+[16:38:50] Finished 'sass' after 95 ms
+[16:39:07] Starting 'sass'...
+[16:39:07] Finished 'sass' after 77 ms
+[16:39:20] Starting 'sass'...
+[16:39:20] Finished 'sass' after 58 ms
+^CTerminate batch job (Y/N)? y
+
+c:\xampp\htdocs\allcarpets (master) (allcarpets@1.0.0)
+? npm install bower --save-dev
+allcarpets@1.0.0 c:\xampp\htdocs\allcarpets
+`-- bower@1.8.0
+
+npm WARN allcarpets@1.0.0 No repository field.
+npm WARN allcarpets@1.0.0 No license field.
+
+c:\xampp\htdocs\allcarpets (master) (allcarpets@1.0.0)
+? npm install --save-dev gulp-main-bower-files gulp-concat gulp-uglify gulp-filter allcarpets@1.0.0 c:\xampp\htdocs\allcarpets
++-- gulp-concat@2.6.1
+| +-- concat-with-sourcemaps@1.0.4
+| `-- vinyl@2.0.1
+|   +-- clone-buffer@1.0.0
+|   +-- clone-stats@1.0.0
+|   +-- cloneable-readable@1.0.0
+|   +-- is-stream@1.1.0
+|   +-- remove-trailing-separator@1.0.1
+|   `-- replace-ext@1.0.0
++-- gulp-filter@5.0.0
+| +-- multimatch@2.1.0
+| | +-- array-union@1.0.2
+| | +-- arrify@1.0.1
+| | `-- minimatch@3.0.3
+| `-- streamfilter@1.0.5
+|   `-- readable-stream@2.2.2
+|     `-- isarray@1.0.0
++-- gulp-main-bower-files@1.6.1
+| `-- main-bower-files@2.13.1
+|   +-- extend@2.0.1
+|   +-- globby@2.1.0
+|   | +-- async@1.5.2
+|   | `-- glob@5.0.15
+|   +-- path-exists@1.0.0
+|   +-- strip-json-comments@1.0.4
+|   `-- vinyl-fs@2.4.4
+|     +-- duplexify@3.5.0
+|     | +-- end-of-stream@1.0.0
+|     | +-- readable-stream@2.2.2
+|     | | `-- isarray@1.0.0
+|     | `-- stream-shift@1.0.0
+|     +-- glob-stream@5.3.5
+|     | +-- extend@3.0.0
+|     | +-- glob@5.0.15
+|     | +-- glob-parent@3.1.0
+|     | | +-- is-glob@3.1.0
+|     | | | `-- is-extglob@2.1.1
+|     | | `-- path-dirname@1.0.2
+|     | +-- ordered-read-streams@0.3.0
+|     | +-- through2@0.6.5
+|     | | `-- readable-stream@1.0.34
+|     | |   `-- isarray@0.0.1
+|     | +-- to-absolute-glob@0.1.1
+|     | | `-- extend-shallow@2.0.1
+|     | `-- unique-stream@2.2.1
+|     |   `-- json-stable-stringify@1.0.1
+|     |     `-- jsonify@0.0.0
+|     +-- graceful-fs@4.1.11
+|     +-- gulp-sourcemaps@1.6.0
+|     | +-- convert-source-map@1.3.0
+|     | +-- graceful-fs@4.1.11
+|     | +-- strip-bom@2.0.0
+|     | `-- vinyl@1.2.0
+|     +-- is-valid-glob@0.3.0
+|     +-- lazystream@1.0.0
+|     | `-- readable-stream@2.2.2
+|     |   `-- isarray@1.0.0
+|     +-- lodash.isequal@4.5.0
+|     +-- merge-stream@1.0.1
+|     | `-- readable-stream@2.2.2
+|     |   `-- isarray@1.0.0
+|     +-- object-assign@4.1.1
+|     +-- readable-stream@2.2.2
+|     | `-- isarray@1.0.0
+|     +-- strip-bom@2.0.0
+|     +-- strip-bom-stream@1.0.0
+|     | `-- strip-bom@2.0.0
+|     +-- through2-filter@2.0.0
+|     +-- vali-date@1.0.0
+|     `-- vinyl@1.2.0
+`-- gulp-uglify@2.0.0
+  +-- lodash@4.17.4
+  +-- make-error-cause@1.2.2
+  | `-- make-error@1.2.1
+  +-- uglify-js@2.7.0
+  | +-- async@0.2.10
+  | +-- uglify-to-browserify@1.0.2
+  | `-- yargs@3.10.0
+  |   +-- camelcase@1.2.1
+  |   +-- cliui@2.1.0
+  |   | +-- center-align@0.1.3
+  |   | | +-- align-text@0.1.4
+  |   | | | `-- longest@1.0.1
+  |   | | `-- lazy-cache@1.0.4
+  |   | +-- right-align@0.1.3
+  |   | `-- wordwrap@0.0.2
+  |   `-- window-size@0.1.0
+  `-- uglify-save-license@0.4.1
+
+npm WARN allcarpets@1.0.0 No repository field.
+npm WARN allcarpets@1.0.0 No license field.
+
+c:\xampp\htdocs\allcarpets (master) (allcarpets@1.0.0)
+? bower install --save bootstrap
+bower not-cached    https://github.com/twbs/bootstrap.git#*
+bower resolve       https://github.com/twbs/bootstrap.git#*
+bower download      https://github.com/twbs/bootstrap/archive/v3.3.7.tar.gz
+bower progress      bootstrap#* received 2.4MB of 4.0MB downloaded, 60%
+bower progress      bootstrap#* received 2.6MB of 4.0MB downloaded, 66%
+bower progress      bootstrap#* received 2.9MB of 4.0MB downloaded, 73%
+bower progress      bootstrap#* received 3.2MB of 4.0MB downloaded, 81%
+bower progress      bootstrap#* received 3.6MB of 4.0MB downloaded, 89%
+bower progress      bootstrap#* received 3.9MB of 4.0MB downloaded, 98%
+bower extract       bootstrap#* archive.tar.gz
+bower resolved      https://github.com/twbs/bootstrap.git#3.3.7
+bower install       bootstrap#3.3.7
+
+bootstrap#3.3.7 bower_components\bootstrap
++-- jquery#3.1.1
+
+c:\xampp\htdocs\allcarpets (master) (allcarpets@1.0.0)
+? gulp main-bower-files
+[18:40:36] Using gulpfile c:\xampp\htdocs\allcarpets\gulpfile.js
+[18:40:36] Starting 'main-bower-files'...
+[18:40:38] Finished 'main-bower-files' after 2.49 s
+
+c:\xampp\htdocs\allcarpets (master) (allcarpets@1.0.0)
+? gulp uglify
+[18:54:04] Using gulpfile c:\xampp\htdocs\allcarpets\gulpfile.js
+[18:54:04] Starting 'uglify'...
+
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+GulpUglifyError: unable to minify JavaScript
+    at createError (c:\xampp\htdocs\allcarpets\node_modules\gulp-uglify\lib\create-error.js:6:14)
+    at wrapper (c:\xampp\htdocs\allcarpets\node_modules\gulp-uglify\node_modules\lodash\_createHybrid.js:87:15)
+    at trycatch (c:\xampp\htdocs\allcarpets\node_modules\gulp-uglify\minifier.js:26:12)
+    at DestroyableTransform.minify [as _transform] (c:\xampp\htdocs\allcarpets\node_modules\gulp-uglify\minifier.js:76:19)
+    at DestroyableTransform.Transform._read (c:\xampp\htdocs\allcarpets\node_modules\through2\node_modules\readable-stream\lib\_stream_transform.js:159:10)
+    at DestroyableTransform.Transform._write (c:\xampp\htdocs\allcarpets\node_modules\through2\node_modules\readable-stream\lib\_stream_transform.js:147:83)
+    at doWrite (c:\xampp\htdocs\allcarpets\node_modules\through2\node_modules\readable-stream\lib\_stream_writable.js:347:64)
+    at writeOrBuffer (c:\xampp\htdocs\allcarpets\node_modules\through2\node_modules\readable-stream\lib\_stream_writable.js:336:5)
+    at DestroyableTransform.Writable.write (c:\xampp\htdocs\allcarpets\node_modules\through2\node_modules\readable-stream\lib\_stream_writable.js:274:11)
+    at DestroyableTransform.ondata (c:\xampp\htdocs\allcarpets\node_modules\through2\node_modules\readable-stream\lib\_stream_readable.js:546:20)
+
+c:\xampp\htdocs\allcarpets (master) (allcarpets@1.0.0)
+? gulp main-bower-files
+[19:20:15] Using gulpfile c:\xampp\htdocs\allcarpets\gulpfile.js
+[19:20:15] Starting 'main-bower-files'...
+[19:20:17] Finished 'main-bower-files' after 1.79 s
+
+c:\xampp\htdocs\allcarpets (master) (allcarpets@1.0.0)
+? gulp uglify
+[11:53:48] Using gulpfile c:\xampp\htdocs\allcarpets\gulpfile.js
+[11:53:48] Starting 'uglify'...
+
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+GulpUglifyError: unable to minify JavaScript
+    at createError (c:\xampp\htdocs\allcarpets\node_modules\gulp-uglify\lib\create-error.js:6:14)
+    at wrapper (c:\xampp\htdocs\allcarpets\node_modules\gulp-uglify\node_modules\lodash\_createHybrid.js:87:15)
+    at trycatch (c:\xampp\htdocs\allcarpets\node_modules\gulp-uglify\minifier.js:26:12)
+    at DestroyableTransform.minify [as _transform] (c:\xampp\htdocs\allcarpets\node_modules\gulp-uglify\minifier.js:76:19)
+    at DestroyableTransform.Transform._read (c:\xampp\htdocs\allcarpets\node_modules\through2\node_modules\readable-stream\lib\_stream_transform.js:159:10)
+    at DestroyableTransform.Transform._write (c:\xampp\htdocs\allcarpets\node_modules\through2\node_modules\readable-stream\lib\_stream_transform.js:147:83)
+    at doWrite (c:\xampp\htdocs\allcarpets\node_modules\through2\node_modules\readable-stream\lib\_stream_writable.js:347:64)
+    at writeOrBuffer (c:\xampp\htdocs\allcarpets\node_modules\through2\node_modules\readable-stream\lib\_stream_writable.js:336:5)
+    at DestroyableTransform.Writable.write (c:\xampp\htdocs\allcarpets\node_modules\through2\node_modules\readable-stream\lib\_stream_writable.js:274:11)
+    at DestroyableTransform.ondata (c:\xampp\htdocs\allcarpets\node_modules\through2\node_modules\readable-stream\lib\_stream_readable.js:546:20)
+
+c:\xampp\htdocs\allcarpets (dev) (allcarpets@1.0.0)
+?
